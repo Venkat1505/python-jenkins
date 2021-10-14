@@ -12,7 +12,7 @@ pipeline {
                 script {
                     dir("interpreta") {
                        echo "In Tag Release stage" 
-                       sh "python tagBuild1.py"
+                       sh "python tagbuild1.py"
                        echo "Tag complete!"
                         }
                     }
